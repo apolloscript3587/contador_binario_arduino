@@ -34,7 +34,7 @@ Diseñar, construir, programar y documentar un contador binario de 4 bits utiliz
 | Pulsador | Ping 8 |
 | LED indicador | Ping 13 |
 
-**GND:** [Pendiente]
+**GND:** Ping GND
 
 ## Funcionamiento del contador binario
 
