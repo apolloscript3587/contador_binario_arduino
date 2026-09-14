@@ -114,15 +114,31 @@ numero & (1 << bit)
 
 ### `&`
 
-[Explicación pendiente]
+El operador `&` realiza una operación **AND bit a bit** entre dos números. Esto significa que compara los bits de ambos números y el resultado de cada posición solo es `1` cuando los dos bits que se comparan son `1`. Si uno de los dos es `0`, el resultado es `0`.
+
+En el contador se utiliza para comprobar el estado de un bit específico del número. Por ejemplo, al hacer `numero & 1`, se puede comprobar si el bit 0 del número está encendido.
 
 ### `<<`
 
-[Explicación pendiente]
+El operador `<<` realiza un **desplazamiento de bits hacia la izquierda**. Cada desplazamiento mueve los bits una posición hacia la izquierda y agrega ceros por la derecha.
+
+Por ejemplo, `1 << 0` produce `0001`, mientras que `1 << 1` produce `0010`, `1 << 2` produce `0100` y `1 << 3` produce `1000`.
+
+En el contador se utiliza para crear una máscara que permite seleccionar el bit que corresponde a cada LED.
 
 ### Determinación del estado de cada LED
 
-[Explicación pendiente]
+La expresión utilizada es:
+
+```cpp
+int bit = (contador >> i) & 1;
+```
+
+Primero, `contador >> i` desplaza el número hacia la derecha tantas posiciones como indique `i`. De esta manera, el bit que queremos revisar queda en la posición 0.
+
+Después, `& 1` comprueba ese bit. Si el resultado es `1`, significa que el bit está encendido y el LED correspondiente recibe `HIGH`. Si el resultado es `0`, el LED recibe `LOW` y permanece apagado.
+
+Por ejemplo, si `contador = 5`, su representación es `0101`. Al recorrer `i` desde 0 hasta 3, el programa obtiene los estados `1, 0, 1, 0`, haciendo que los LEDs representen correctamente el número 5.
 
 ## Explicación del código
 
