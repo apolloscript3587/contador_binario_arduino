@@ -76,7 +76,7 @@ Los programas estarán en [`codigo/`](codigo/).
 
 **Secuencia:** `15, 14, 13, ... 2, 1, 0`.
 
-**Modificación:** El valor de la variable `contador` fue cambiado a 15 y en vez de aumentar en uno su valor lo disminuye.
+**Modificación:** El valor de la variable `contador` fue cambiado a 15 y en vez de aumentar en 1 su valor lo disminuye.
 
 **Resultado:** El número comienza en 15 y va disminuyendo hasta q llega a cero y se desborda asi volviendo a 15.
 
@@ -92,9 +92,9 @@ Cada pulsación debe avanzar una posición.
 
 **Secuencia:** `0, 2, 4, 6, 8, 10, 12, 14`.
 
-**Modificación:** [Pendiente]
+**Modificación:** La variable `contador` en vez de aumentar en 1 ahora aumenta en 2.
 
-**Resultado:** [Pendiente]
+**Resultado:** El número aumenta de 2 en 2 hasta q llega a 14 y luego desborda a 0.
 
 ### Reto 5 — LED indicador
 
