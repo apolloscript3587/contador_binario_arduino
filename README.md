@@ -49,7 +49,7 @@ Los cuatro LEDs representan valores binarios desde 0 (`0000`) hasta 15 (`1111`).
 | ... | ... | ... |
 | 15 | `1111` | Todos encendidos |
 
-**Explicación:** [Pendiente]
+**Explicación:** El sistema binario es el sistema númerico mas simple que existe, ya que solo necesita poder estar en 2 estados, encendido o apagado, por medio de este sistema se puede crear una logica llamada logica booleana y tambien permite representar valores como números o letras.
 
 ## Código
 
