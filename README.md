@@ -56,6 +56,7 @@ Los cuatro LEDs representan valores binarios desde 0 (`0000`) hasta 15 (`1111`).
 Los programas estarán en [`codigo/`](codigo/).
 
 - [ ] `contador_original.ino`
+- [ ] `contador_velocidad.ino`
 - [ ] `contador_descendente.ino`
 - [ ] `contador_boton.ino`
 - [ ] `contador_pares.ino`
