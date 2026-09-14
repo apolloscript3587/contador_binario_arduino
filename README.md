@@ -25,14 +25,14 @@ Diseñar, construir, programar y documentar un contador binario de 4 bits utiliz
 
 ## Conexiones
 
-| Elemento | Pin Arduino | Función |
-|---|---:|---|
-| LED bit 0 (LSB) | [Pendiente] | Bit menos significativo |
-| LED bit 1 | [Pendiente] | Segundo bit |
-| LED bit 2 | [Pendiente] | Tercer bit |
-| LED bit 3 (MSB) | [Pendiente] | Bit más significativo |
-| Pulsador | [Pendiente] | Entrada digital |
-| LED indicador | [Pendiente] | Indicador de 15 |
+| Elemento | Conexión |
+|---|---:|
+| LED bit 0 | Ping 9 |
+| LED bit 1 | Ping 10 |
+| LED bit 2 | Ping 11 |
+| LED bit 3 | Ping 12 |
+| Pulsador | Ping 8 |
+| LED indicador | Ping 13 |
 
 **GND:** [Pendiente]
 
