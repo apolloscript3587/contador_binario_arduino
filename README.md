@@ -67,9 +67,9 @@ Los programas estarán en [`codigo/`](codigo/).
 
 **Objetivo:** establecer un intervalo de `500 ms` mediante una variable como `waitDelay`.
 
-**Modificación:** [Pendiente]
+**Modificación:** El valor de la variable llamada `tiempo_espera` fue cambiado a `500`
 
-**Resultado:** [Pendiente]
+**Resultado:** El tiempo en el cual el contador se ejecutaba fue reducido a la mitad, es decir a medio segundo.
 
 ### Reto 2 — Contador descendente
 
