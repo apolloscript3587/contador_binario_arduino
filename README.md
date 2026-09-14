@@ -84,9 +84,9 @@ Los programas estarán en [`codigo/`](codigo/).
 
 Cada pulsación debe avanzar una posición.
 
-**Modificación:** [Pendiente]
+**Modificación:** En cuanto a lo físico se añadió un botón con una salida en el Ping 8 y en el Ping GND, y con una entrada en el Ping 5V con una resistencia de 10 KiloOhmios, y en cuanto a código se le dió un valor de `200` a `tiempo_espera` para evitar que se detecten varias pulsaciones con una sola, ademas de definir el boton a su respectivo Ping y aumentar la variable `contador` cuando este se pulse.
 
-**Resultado:** [Pendiente]
+**Resultado:** El número aumenta bajo la nueva condición que es el pulsado del boton.
 
 ### Reto 4 — Números pares
 
