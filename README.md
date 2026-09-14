@@ -1,15 +1,12 @@
 # Parcial práctico — Contador binario de 4 bits con Arduino
 
-> **Estado:** En desarrollo 🚧
-
 Repositorio para documentar el parcial práctico de un contador binario de 4 bits con Arduino, LEDs, simulación en Tinkercad y modificaciones del programa.
 
 ## 👥 Integrantes
 
-- Integrante 1: [Pendiente]
-- Integrante 2: [Pendiente]
-- Integrante 3: [Pendiente]
-- Grupo de laboratorio: [Pendiente]
+- Integrante 1: Julian Jimenez
+- Integrante 2: Juan Chancy
+- Integrante 3: Santiago Polo
 
 ## 🎯 Objetivo
 
