@@ -76,9 +76,9 @@ Los programas estarán en [`codigo/`](codigo/).
 
 **Secuencia:** `15, 14, 13, ... 2, 1, 0`.
 
-**Modificación:** [Pendiente]
+**Modificación:** El valor de la variable `contador` fue cambiado a 15 y en vez de aumentar en uno su valor lo disminuye.
 
-**Resultado:** [Pendiente]
+**Resultado:** El número comienza en 15 y va disminuyendo hasta q llega a cero y se desborda asi volviendo a 15.
 
 ### Reto 3 — Control mediante botón
 
