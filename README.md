@@ -142,9 +142,9 @@ Por ejemplo, si `contador = 5`, su representación es `0101`. Al recorrer `i` de
 
 ## Explicación del código
 
-- `setup()`: [Pendiente]
-- `loop()`: [Pendiente]
-- `pinMode()`: [Pendiente]
+- `setup()`: Es una función predeterminada que se ejecuta una sola vez, ideal para definir.
+- `loop()`: Es una función predeterminada que se ejecuta todo el tiempo en bucle, aque suele estar el nucleo del codigo
+- `pinMode()`: Define que labor hará el ping, se le da el nombre y se establece si es entrada o salida.
 - `digitalWrite()`: [Pendiente]
 - `digitalRead()`: [Pendiente]
 - `delay()`: [Pendiente]
