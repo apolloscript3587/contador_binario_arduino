@@ -100,9 +100,9 @@ Cada pulsación debe avanzar una posición.
 
 El quinto LED debe encenderse cuando el contador llegue a `15` (`1111`).
 
-**Modificación:** [Pendiente]
+**Modificación:** Se añadió un quinto led con Ping 13, en cuanto al código se definió y luego bajo una condicional if, se activa o desactiva al momento en el q el `contador` llegue a 16, porque el `contador` solo acumula valor al final de cada ciclo.
 
-**Resultado:** [Pendiente]
+**Resultado:** Al prenderse todas las luces q representan a los bits, tambien se enciende el led indicador.
 
 ## Operaciones bit a bit
 
