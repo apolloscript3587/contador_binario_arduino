@@ -2,17 +2,18 @@
 
 Repositorio para documentar el parcial práctico de un contador binario de 4 bits con Arduino, LEDs, simulación en Tinkercad y modificaciones del programa.
 
-## 👥 Integrantes
+## Integrantes
 
 - Integrante 1: Julian Jimenez
 - Integrante 2: Juan Chancy
 - Integrante 3: Santiago Polo
+- Integrante 4: Jhon Olier
 
-## 🎯 Objetivo
+## Objetivo
 
 Diseñar, construir, programar y documentar un contador binario de 4 bits utilizando Arduino y LEDs.
 
-## 🧰 Materiales
+## Materiales
 
 - Arduino UNO o compatible
 - Protoboard
@@ -22,7 +23,7 @@ Diseñar, construir, programar y documentar un contador binario de 4 bits utiliz
 - Pulsador
 - Quinto LED para indicador
 
-## 🔌 Conexiones
+## Conexiones
 
 | Elemento | Pin Arduino | Función |
 |---|---:|---|
@@ -50,7 +51,7 @@ Los cuatro LEDs representan valores binarios desde 0 (`0000`) hasta 15 (`1111`).
 
 **Explicación:** [Pendiente]
 
-## 💻 Código
+## Código
 
 Los programas estarán en [`codigo/`](codigo/).
 
@@ -60,7 +61,7 @@ Los programas estarán en [`codigo/`](codigo/).
 - [ ] `contador_pares.ino`
 - [ ] `contador_led_indicador.ino`
 
-## 🧪 Retos
+## Retos
 
 ### Reto 1 — Velocidad del contador
 
@@ -102,7 +103,7 @@ El quinto LED debe encenderse cuando el contador llegue a `15` (`1111`).
 
 **Resultado:** [Pendiente]
 
-## ⚙️ Operaciones bit a bit
+## Operaciones bit a bit
 
 Se utilizará una expresión como:
 
@@ -122,7 +123,7 @@ numero & (1 << bit)
 
 [Explicación pendiente]
 
-## 📚 Explicación del código
+## Explicación del código
 
 - `setup()`: [Pendiente]
 - `loop()`: [Pendiente]
@@ -135,7 +136,7 @@ numero & (1 << bit)
 - Operador `%`: [Pendiente, si se utiliza]
 - Operadores bitwise: [Pendiente]
 
-## 📸 Evidencias
+## Evidencias
 
 ### Montaje físico
 
@@ -159,7 +160,7 @@ Guardar capturas en [`evidencias/simulacion/`](evidencias/simulacion/).
 - [ ] Números pares
 - [ ] LED indicador
 
-## 📐 Diagramas
+## Diagramas
 
 Guardar los diagramas del circuito en [`diagramas/`](diagramas/).
 
@@ -167,17 +168,7 @@ Guardar los diagramas del circuito en [`diagramas/`](diagramas/).
 - [ ] Circuito con pulsador
 - [ ] Circuito con LED indicador
 
-## 🎥 Video de funcionamiento
-
-**Enlace:** [Pendiente]
-
-El video deberá mostrar el funcionamiento real del circuito.
-
-## 👥 Trabajo en grupo
-
-El ejercicio puede presentarse en los grupos de trabajo establecidos durante la clase de laboratorio.
-
-## ✅ Lista de entrega
+## Lista de entrega
 
 - [ ] Montaje físico
 - [ ] Simulación Tinkercad
