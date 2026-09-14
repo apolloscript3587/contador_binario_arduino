@@ -157,43 +157,8 @@ Por ejemplo, si `contador = 5`, su representación es `0101`. Al recorrer `i` de
 
 ### Montaje físico
 
-Guardar fotografías en [`evidencias/montaje_fisico/`](evidencias/montaje_fisico/).
-
-- [ ] Montaje completo
-- [ ] Arduino conectado
-- [ ] Diferentes valores del contador
-- [ ] Funcionamiento real
-- [ ] Botón
-- [ ] Quinto LED
+Fotografías en [`evidencias/montaje_fisico/`](evidencias/montaje_fisico/).
 
 ### Simulación en Tinkercad
 
-Guardar capturas en [`evidencias/simulacion/`](evidencias/simulacion/).
-
-- [ ] Circuito base
-- [ ] 500 ms
-- [ ] Descendente
-- [ ] Botón
-- [ ] Números pares
-- [ ] LED indicador
-
-## Diagramas
-
-Guardar los diagramas del circuito en [`diagramas/`](diagramas/).
-
-- [ ] Circuito original
-- [ ] Circuito con pulsador
-- [ ] Circuito con LED indicador
-
-## Lista de entrega
-
-- [ ] Montaje físico
-- [ ] Simulación Tinkercad
-- [ ] Cinco programas
-- [ ] Cinco retos documentados
-- [ ] Operaciones bitwise explicadas
-- [ ] README completado
-- [ ] Fotografías
-- [ ] Capturas de simulación
-- [ ] Diagramas
-- [ ] Video de funcionamiento
+Capturas en [`evidencias/simulacion/`](evidencias/simulacion/).
