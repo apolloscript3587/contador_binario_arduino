@@ -36,7 +36,7 @@ Diseñar, construir, programar y documentar un contador binario de 4 bits utiliz
 
 **GND:** [Pendiente]
 
-## 🔢 Funcionamiento del contador binario
+## Funcionamiento del contador binario
 
 Los cuatro LEDs representan valores binarios desde 0 (`0000`) hasta 15 (`1111`).
 
