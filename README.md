@@ -145,13 +145,13 @@ Por ejemplo, si `contador = 5`, su representación es `0101`. Al recorrer `i` de
 - `setup()`: Es una función predeterminada que se ejecuta una sola vez, ideal para definir.
 - `loop()`: Es una función predeterminada que se ejecuta todo el tiempo en bucle, aque suele estar el nucleo del codigo
 - `pinMode()`: Define que labor hará el ping, se le da el nombre y se establece si es entrada o salida.
-- `digitalWrite()`: [Pendiente]
-- `digitalRead()`: [Pendiente]
-- `delay()`: [Pendiente]
-- Arreglos: [Pendiente]
-- Ciclos `for`: [Pendiente]
-- Operador `%`: [Pendiente, si se utiliza]
-- Operadores bitwise: [Pendiente]
+- `digitalWrite()`: Permite enviar un estado `HIGH` o `LOW` a un pin digital, por ejemplo para encender o apagar un LED.
+- `digitalRead()`: Permite leer el estado de un pin digital, por ejemplo para saber si un botón está presionado.
+- `delay()`: Detiene temporalmente la ejecución del programa durante el tiempo indicado en milisegundos.
+- Arreglos: Permiten guardar varios valores relacionados en una misma variable. En este caso se utiliza para guardar los pines de los LEDs.
+- Ciclos `for`: Permiten repetir un bloque de código varias veces sin tener que escribirlo repetidamente.
+- Operador `%`: Obtiene el residuo de una división. Puede utilizarse para comprobar si un número es par o impar.
+- Operadores bitwise: Permiten trabajar directamente con los bits de un número. En este contador se utilizan para determinar qué LEDs deben estar encendidos.
 
 ## Evidencias
 
